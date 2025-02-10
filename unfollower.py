@@ -81,7 +81,7 @@ class InstagramUnfollower:
         """Generic function to get followers/following list"""
         self._random_delay()
         scroll_box = self.wait.until(EC.presence_of_element_located(
-            (By.XPATH, "//div[@role='dialog']//div[@style='flex-direction: column;']")
+            (By.XPATH, "//div[@role='dialog']")
         ))
         
         last_height = 0
