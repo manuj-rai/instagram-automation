@@ -11,8 +11,8 @@ import time
 import random
 
 # Configuration
-INSTAGRAM_USERNAME = os.getenv("INSTAGRAM_USERNAME", "manuj_rai_official")
-INSTAGRAM_PASSWORD = os.getenv("INSTAGRAM_PASSWORD", "#ruhman0207")
+INSTAGRAM_USERNAME = os.getenv("INSTAGRAM_USERNAME")
+INSTAGRAM_PASSWORD = os.getenv("INSTAGRAM_PASSWORD")
 MAX_SCROLL_ATTEMPTS = 15
 BASE_DELAY = 2
 
